@@ -1,0 +1,39 @@
+/* styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* 防止横向滚动 */
+  }
+  
+  .carousel {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden; /* 隐藏超出容器部分 */
+  }
+  
+  .carousel-images img {
+    width: 100%;
+    display: block;
+  }
+  
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 100;
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }
+  
